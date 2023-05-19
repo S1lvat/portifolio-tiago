@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b264ea8169.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Portifolio Tiago</title>
+</head>
+<body>
+    <header>
+        <h1>Portifolio</h1>
+        <nav class="nav-desktop">
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <nav class="nav-mobile">
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <nav class="menu-toggle">
+            <i class="fa-solid fa-bars active"></i>
+            <i class="fa-solid fa-xmark hide"></i>
+        </nav>
+    </header>
+
+    <main class="banner">
+        <div class="back">
+        <div class="picture">
+            <img src="assets/666254854-removebg-preview.png" alt="">
+        </div>
+        <h1>TIAGO DA <span>SILVA</span></h1>
+        <h2><span>Web</span> Developer</h2>
+        <div class="social-media-banner">
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+    </main>
+
+    <section id="about">
+        <h1>Sobre</h1>
+        <div class="about-container">
+            <div class="image-about-container">
+                <img src="assets/666254857-removebg-preview.png" alt="">
+            </div>
+            <aside class="aside-about">
+                <h2>Olá, eu sou o <span>Tiago!</span></h2>
+                <p class="disclaimer">
+                    Atualmente estou migrando para a área de desenvolvimento web. Sou administrador formado em 2019 com 4 anos de experiência,  mas resolvi mudar de profissão, não só por conta de toda a paixão por tecnologia, mas com o objetivo de unir o melhor dos dois mundos!   
+                </p>
+                <h3>Algumas informações sobre mim:</h3>
+            
+            <section class="about-box-section">
+                    <div class="about-box">
+                        <i class="fa-solid fa-baby"></i>
+                        <div class="about-box-content">
+                            <h4>Eu <span>nasci</span> no dia:</h4>
+                            <p>29/01/1998 e tenho 25 anos</p>    
+                        </div>
+                    </div>
+                    <div class="about-box">
+                        <i class="fa-solid fa-city"></i>  
+                        <div class="about-box-content">
+                            <h4>Em uma <span>cidade</span> chamada:</h4>
+                            <p>Tucuruí, Pará, Brasil</p>    
+                        </div>
+                    </div>
+                    <div class="about-box">
+                        <i class="fa-solid fa-chart-pie"></i>                        <div class="about-box-content">
+                            <h4>Sou <span>graduado</span> em:</h4>
+                            <p>Administração pela Uninorte, 2019</p>    
+                        </div>
+                    </div>
+                    <div class="about-box">
+                        <i class="fa-sharp fa-solid fa-code"></i>
+                        <div class="about-box-content">
+                            <h4>Estou <span>migrando</span> para:</h4>
+                            <p>Programação fullstack javascript</p>    
+                        </div>
+                    </div>
+                    <div class="about-box">
+                        <i class="fa-solid fa-music"></i>
+                        <div class="about-box-content">
+                            <h4>Minhas outras <span>habilidades</span>:</h4>
+                            <p>Sou músico e falo inglês</p>    
+                        </div>
+                    </div>
+                    <div class="about-box">
+                        <i class="fa-solid fa-hand-spock"></i>
+                        <div class="about-box-content">
+                            <h4>Meus <span>hobbies</span> são:</h4>
+                            <p>Assistir filmes e ler HQ's</p>    
+                        </div>
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1>Projetos</h1>
+        <div class="projects-container">
+        <div class="project-container">
+            <h2>Front-End</h2>
+            <div class="project-box">
+                <img src="assets/Jogodavelha.jpeg" alt="">
+                <aside class="aside-project-box">
+                    <h3>Jogo da Velha</h3>
+                    <p>Classico jogo da velha, para diversão. Neste projeto simples, utilizei JavaScript puro, além de HTML e CSS.</p>
+                    <div class="btns">
+                        <a href="https://github.com/S1lvat/Jogo-da-velha" target="_blank" rel="noopener noreferrer">
+                            <button class="btn">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                            </button>
+                        </a>
+                        <a href="https://jogo-da-velha-rouge.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <button class="btn">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <span>Play</span>
+                            </button>
+                        </a>
+                    </div>
+                </aside>
+            </div>
+            
+            <div class="project-box">
+                <img src="assets/ListFilm.jpeg" alt="">
+                <aside class="aside-project-box">
+                    <h3>listFilm</h3>
+                    <p>Projeto criado para ser uma enciclopédia de filmes, sendo utilizado, por base, o framework Vite.js, que é mais leve que o tradicional "create-react-app", para realizar o consumo da api themoviedb (TMDB).</p>
+                    <div class="btns">
+                        <a href="https://github.com/S1lvat/listFilm/tree/master" target="_blank" rel="noopener noreferrer">
+                            <button class="btn">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                            </button>
+                        </a>
+                        <a href="https://list-film-s1lvat.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <button class="btn">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <span>Play</span>
+                            </button>
+                        </a>
+                    </div>
+                </aside>
+            </div>
+
+            <div class="project-box">
+                <img src="assets/Calculadora.jpeg" alt="">
+                <aside class="aside-project-box">
+                    <h3>Calculadora</h3>
+                    <p>Calculadora simples para treino de lógica e conceitos básicos de javascript, como operadores lógicos, manupulação de arrays e strings e operações matemáticas. Além do javascript puro, utilizei css e html</p>
+                    <div class="btns">
+                        <a href="https://github.com/S1lvat/Calculadora" target="_blank" rel="noopener noreferrer">
+                            <button class="btn">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                            </button>
+                        </a>
+                        <a href="https://calculadora-eight-theta.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <button class="btn">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <span>Play</span>
+                            </button>
+                        </a>
+                    </div>
+                </aside>
+            </div>
+
+        </div>
+        <div class="project-container">
+            <h2>Back-End</h2>
+            <div class="project-box">
+                <img src="assets/6326.jpg" alt="">
+                <aside class="aside-project-box">
+                    <h3>Project Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec pellentesque neque. Curabitur accumsan magna ultricies, egestas orci id, porttitor erat. Nulla id sodales leo, at commodo ipsum.</p>
+                    <div class="btns">
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <button class="btn">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                            </button>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <button class="btn">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <span>Play</span>
+                            </button>
+                        </a>
+                    </div>
+                </aside>
+            </div>
+
+            <div class="project-box">
+                <img src="assets/6326.jpg" alt="">
+
+                <aside class="aside-project-box">
+                    <h3>Project Name</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec pellentesque neque. Curabitur accumsan magna ultricies, egestas orci id, porttitor erat. Nulla id sodales leo, at commodo ipsum.</p>
+                    <div class="btns">
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <button class="btn">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                            </button>
+                        </a>
+                        <a href="" target="_blank" rel="noopener noreferrer">
+                            <button class="btn">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <span>Play</span>
+                            </button>
+                        </a>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-container">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Linguagem de marcação de hipertexto, usada para estruturar a página web.</p>
+            </div>
+            <div class="skill-container">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Linguagem de estilo, usada para ditar como os elementos aparecerão.</p>
+            </div>
+            <div class="skill-container">
+                <i class="fa-brands fa-square-js"></i>
+                <h3>JAVASCRIPT</h3>
+                <p>Linguagem de programação utilizada tanto no front, quanto no back-end.</p>
+            </div>
+            <div class="skill-container">
+                <i class="fa-brands fa-react"></i>
+                <h3>REACT</h3>
+                <p>React é uma biblioteca JavaScript para construção de interfaces de usuário.</p>
+            </div>
+            <div class="skill-container">
+                <i class="fa-brands fa-node-js"></i>
+                <h3>NODEJS</h3>
+                <p>O nodejs é um framework que permite a execução de javascript fora dos navegadores</p>
+            </div>
+            <div class="skill-container">
+                <i class="fa-brands fa-git-alt"></i>
+                <h3>GIT</h3>
+                <p>Git é uma ferramenta de versionamento de código.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="thanks">
+            <h1>Obrigado por <br> chegar até aqui!</h1>
+        </div>
+        <div class="where-find">
+            <h2>Onde me encontrar:</h2>
+            <div class="where-find-sci">
+                <div class="sci-box">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>(92) 995288217</span>
+                </div>
+                <div class="sci-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>tiagopan101@gmail.com</span>
+                </div>
+                <div class="sci-box">
+                    <i class="fa-brands fa-instagram"></i>
+                    <span>@tiagu_si</span>
+                </div>
+                <div class="sci-box">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>S1lvat</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h4>Desenvolvido por Tiago da Silva</h4>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
