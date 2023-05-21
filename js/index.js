@@ -10,6 +10,10 @@ window.addEventListener('scroll', ()=> {
     } 
 })
 
+const logo = document.querySelector('#logo')
+
+logo.addEventListener('click', () => {window.scroll({top: 0, behavior: "smooth"})})
+
 const menu = document.querySelector('.fa-bars')
 const menuClose = document.querySelector('.fa-xmark')
 const menuMobile = document.querySelector('.nav-mobile')
