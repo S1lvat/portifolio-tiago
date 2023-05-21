@@ -95,7 +95,7 @@ header {
 .banner .picture {
     width: 14rem;
     height: 14rem;
-    background-color: #283040;
+   z-index: 0; 
     border-radius: 50%;
     border: 10px solid #4B3570;
     overflow: hidden;
@@ -256,7 +256,7 @@ header {
 }
 
 #skills{
-    background: linear-gradient(to bottom, #4A346F, #283040);
+   z-index: 0; 
     padding: 2rem ;
 }
 #skills h2{
@@ -412,4 +412,37 @@ header {
     .active {
         display: flex;
     }
+}
+@media (max-width: 450px) {
+ .project-box img {
+   position: absolute;
+   z-index: 0; 
+   width: 70%;
+}
+.project-box .aside-project-box {
+    background: rgb(0,0,0,.4);
+    z-index: 1;
+    padding: 1rem;
+}
+.project-container:nth-child(1) {
+    border-right: none;
+}
+#contact {
+    flex-direction: column-reverse;
+}
+.thanks {
+    border: none;
+}
+.where-find{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.where-find h2 {
+    text-align: center;
+    padding: 1rem;
+}
+.thanks {
+    width: 100%;
+}
 }
